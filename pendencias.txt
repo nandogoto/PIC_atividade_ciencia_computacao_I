@@ -1,0 +1,14 @@
+Encerrar sessão
+***enviar dados dos produtos ao carrinho PAREI NOS 44:20 OK
+Vincular CSS pag produtos
+Adicionar formas de pagamento e endereço de entrega. ao carrinho
+Fazer busca no site
+***bindParam não funciona para recuperar senha
+terminar recuperação de senha
+pagina de administração
+formulários de entrega de projeto
+atualizar GitHub e anexar link
+
+*** Em andamento Matheus...
+
+parado em bug, não soma ao adicionar ao carrinho. vídeo a 52:00 min
