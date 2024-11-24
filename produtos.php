@@ -166,7 +166,7 @@
           </thead>
 
           <tbody>
-            <tr class="cart-product">
+            <!--<tr class="cart-product">
               <td class="product-identification">
                 <img src="./menu-1 - mini.png" alt="Miniatura" class="cart-product-image">
                 <br>
@@ -193,7 +193,7 @@
                 <input type="number" value="1" min="0" class="product-qtd-input">
                 <button type="button" class="btn-remove">Remover</button>
               </td>
-            </tr>
+            </tr>-->
           </tbody>
 
           <tfoot>

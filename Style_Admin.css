@@ -167,4 +167,22 @@ h1 {
     margin-right: 5px; 
     
 }
+table{
+    margin: 0 auto;
+    width: 1500px;
+    border: 1px solid black;
+}
+th{
+    background:  #d3d3d3;
+    border: 1px solid black;
+    text-align:  center;
+    font-size: larger;
+}
 
+td{
+    border: 1px solid black;
+    text-align:  center;
+    color: greenyellow;
+    font-size: larger;
+    background:  black;
+}

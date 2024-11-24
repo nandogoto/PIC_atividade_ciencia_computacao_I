@@ -54,20 +54,45 @@ if (!empty($dados['Consulta']) and (($dados['usuario'])=='Administrador')) {
     $result_usuario = $conexao->query($query_usuario);
     echo "<h1>Cadastro de usuários</h1>";
     echo "<table>";
+    echo "<thead>";
+   
+    echo"<tr>";
+        echo "<th>ID</th>";
+         echo "<th>Nome</th>";
+         echo "<th>E-mail</th>";
+         echo "<th>Telefone</th>";
+         echo "<th>Tratamento</th>";
+         echo "<th>Dt.Nasc.</th>";
+         echo "<th>cidade</th>";
+         echo "<th>estado</th>";
+         echo "<th>Endereço</th>";
+         echo "<th>Senha</th>";
+         echo "</tr>";
+         echo "</thead>";
+         echo "<tbody>";
+        
 while($exibe = mysqli_fetch_assoc($result_usuario)){
-   echo "<tr><td>id:   ".$exibe["id"]."</td>
-             <td>Nome: ".$exibe["Nome"]."</td>
-             <td>email:".$exibe["email"]."</td>
-             <td>Telefone:".$exibe["telefone"]."</td>
-             <td>Tratamento:".$exibe["genero"]."</td>
-             <td>Dt.Nasc.:".$exibe["data_nascimento"]."</td>
-             <td>cidade:".$exibe["cidade"]."</td>
-             <td>estado:".$exibe["estado"]."</td>
-             <td>endereço:".$exibe["endereco"]."</td>
-             <td>senha:".$exibe["senha"]."</td>
+   echo "
+            
+                <tr>
+                <td>".$exibe["id"]."</td>
+                <td>".$exibe["Nome"]."</td>
+                <td>".$exibe["email"]."</td>
+                <td>".$exibe["telefone"]."</td>
+                <td>".$exibe["genero"]."</td>
+                <td>".$exibe["data_nascimento"]."</td>
+                <td>".$exibe["cidade"]."</td>
+                <td>".$exibe["estado"]."</td>
+                <td>".$exibe["endereco"]."</td>
+                <td>".$exibe["senha"]."</td>
+                </tr>
+                </tbody>
+                  
+             
              <br>";
   
 }
+
 echo "</table>";
 
 
